@@ -1,4 +1,4 @@
-A basic implemetation showing the ability to combine React and p5.js.
+A basic implementation showing the ability to combine React and p5.js.
 
 This implementation uses hooks, so no class components are used.
 
@@ -23,7 +23,7 @@ const SketchContainer = props => {
   let diameter = 400
   return (
     <>
-      <SketchDisplay sketch={sketch} diameter={diameter} />
+      <Sketch sketch={sketch} diameter={diameter} />
     </>
   )
 }
